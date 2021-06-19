@@ -11,7 +11,7 @@
 # production
 /src
 /public
-/.env
+/build
 /.gitignore
 /package-lock.json
 /package.json
