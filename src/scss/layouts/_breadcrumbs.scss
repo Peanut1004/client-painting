@@ -1,0 +1,51 @@
+.breadcrumbs {
+  background-image: url("../../assets/images/breadcrumbs/01.jpg");
+  padding: 150px 0;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &__overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(13, 34, 53, 0.75);
+  }
+  &__link {
+    text-align: center;
+    h1 {
+      font-size: 30px;
+      line-height: 42px;
+      font-weight: $font-weight7;
+      color: $color-white;
+      text-transform: capitalize;
+      margin-bottom: 5px;
+    }
+    a {
+      color: $color-white;
+      font-size: $font-size-medium;
+      padding-right: 15px;
+      position: relative;
+      font-weight: $font-weight3;
+      margin-right: 5px;
+      &:last-child {
+        color: $color-breadcrumbs;
+        margin-right: 0;
+        padding-right: 0;
+        &:after {
+          display: none;
+        }
+      }
+      &:after {
+        content: "-";
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        position: absolute;
+      }
+    }
+  }
+  
+}

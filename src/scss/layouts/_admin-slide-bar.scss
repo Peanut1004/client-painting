@@ -1,0 +1,22 @@
+.admin-slide-bar {
+  background-color: $color-secondary;
+  height: 100%;
+  min-height: 100vh;
+  padding: 44px 20px;
+
+  ul {
+    li {
+      margin-bottom: 25px;
+      
+      a {
+        font-size: $font-size-larger;
+        color: $color-white;
+        font-weight: bold;
+        display: block;
+        &.active {
+          color: $color-main;
+        }
+      }
+    }
+  }
+}

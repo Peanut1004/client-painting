@@ -1,0 +1,46 @@
+.about-us {
+    padding: 100px 0;
+    position: relative;
+    
+    // &__content {
+    //     @include grid(1fr 1fr);
+    // }
+    &__text {
+      line-height: 25px;
+      background-color: $color-white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 16px #eee;
+      h3 {
+        text-align: center;
+        color: $color-black;
+        font-weight: $font-weight7;
+        text-transform: uppercase;
+        font-size: $font-size-larger;
+        display: block;
+        margin-bottom: 5px;
+      }
+      ul {
+        margin-top: 15px;
+        li {
+          color: $color-main;
+          font-weight: $font-weight7;
+          margin-bottom: 5px;
+          span {
+            color: $color-secondary;
+            margin-right: 3px;
+          }
+        }
+      }
+      
+    }
+    &__video {
+      border: 1px solid #eee;
+    }
+    .image-position {
+      z-index: -1;
+      bottom: 31px;
+      left: 12%;
+      position: absolute;
+    }
+}

@@ -1,0 +1,76 @@
+// contact section
+.contact {
+    &-section {
+        padding: 60px 0;
+        text-align: center;
+        background-image: url("../../assets/images/section/08.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &__social-info {
+        ul {
+            li {
+                display: inline-block;
+                padding: 0 10px;
+                margin-bottom: 30px;
+                > div {
+                    min-width: 120px;
+                    width: 100%;
+                }
+                a {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 25px;
+                    background: $color-white;
+                    color: $color-secondary;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                p {
+                    color: #fdc733;
+                    font-size: $font-size-ultra;
+                    font-weight: $font-weight7;
+                    // font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+// conact page
+.contact-us {
+    &__columns {
+        // @include grid(1fr 1fr 1fr);
+        padding: 100px 0 70px 0;
+    }
+    &__box {
+        text-align: center;
+        border: 1px solid #eee;
+        box-shadow: 0 0 16px #eee;
+        border-radius: 10px;
+        padding: 30px 15px;
+        margin-bottom: 30px;
+        .icon {
+            margin-bottom: 15px;
+            i {
+                font-size: 50px;
+                color: $color-secondary;
+            }
+        }
+        h3 {
+            color: $color-black;
+            font-size: $font-size-big;
+            line-height: 32px;
+            font-weight: $font-weight7;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: $font-size-larger;
+            font-weight: $font-weight7;
+            color: $color-main;
+        }
+    }
+}

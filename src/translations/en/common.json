@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "usersManagement": "Users Management",
+    "productsManagement": "Products Management",
+    "worksDonesManagement": "Works Done Management",
+    "blogsManagement": "Blogs Management",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "addProduct": "Add Product",
+    "editProduct": "Edit Product",
+    "addWorksDone": "Add Works Done",
+    "editWorksDone": "Edit Works Done",
+    "addBlog": "Add Blog",
+    "editBlog": "Edit Blog",
+    "id": "Id",
+    "name": "Name",
+    "image": "Image",
+    "categories": "Categories",
+    "price": "Price",
+    "oldPrice": "Old Price",
+    "newPrice": "New Price",
+    "ratings": "Ratings",
+    "content": "Content",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "region": "Region",
+    "gender": "Gender",
+    "birthday": "Birthday",
+    "description": "Description",
+    "action": "Action",
+    "edit": "Edit",
+    "remove": "Remove",
+    "confirmUser": "Are you sure remove this user?",
+    "confirmMovie": "Are you sure remove this movie?",
+    "confirmTicket": "Are you sure remove this ticket?",
+    "male": "Male",
+    "female": "Female",
+    "hcm": "Ho Chi Minh",
+    "hn": "Ha Noi",
+    "dn": "Da Nang"
+  },
+  "contact": {
+    "contact": "Contact Us",
+    "openTime": "Open Time",
+    "emailUs": "Email Us",
+    "callUs": "Call Us",
+    "address": "Address"
+  },
+  "authentication": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Log Out",
+    "retry": "Retry"
+  },
+  "headerTopBar": {
+    "search": "Search product...",
+    "register": "Register",
+    "loading": "Loading..."
+  },
+  "menu": {
+    "home": "Home",
+    "interiorPaint": "Interior Paint",
+    "exteriorPaint": "Exterior Paint",
+    "putty": "Putty",
+    "member": "Member",
+    "contact": "Contact",
+    "productList": "Product List"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "interiorPaint": "Interior Paint",
+    "exteriorPaint": "Exterior Paint",
+    "productDetail": "Paint Detail",
+    "worksDoneDetail": "Works Done Detail",
+    "blogDetail": "Blog Detail",
+    "putty": "Putty",
+    "contact": "Contact"
+  },
+  "titleSection": {
+    "aboutUs": "About Us",
+    "interiorPaint": "Interior Paint",
+    "exteriorPaint": "Exterior Paint",
+    "putty": "Putty",
+    "worksDone": "Works Done",
+    "blog": "Latest News"
+  },
+  "aboutUsSection": {
+    "companyName": "DONG THINH High-Quality Paint Distribution Agent",
+    "companyDes": "is a distributor of high-class interior and exterior wall plasters and decorative paints. Dong Thinh brings to you high quality paints for the protection and decoration of constructions. Our products have been researched in accordance with Vietnam's climate conditions, manufactured according to ISO 9001 standards and granted certificates of conformity. With the motto that quality is first, your house will be more beautiful and durable when using our paint.",
+    "companyHotline": "Hotline",
+    "companyAddress": "Address"
+  },
+  "serviceBetterSection": {
+    "title": "Why is our painting service better than others?",
+    "articleOne": "Home & Furniture Protection",
+    "articleTwo": "Color consultant to help with color selection",
+    "articleThree": "Best price in the market"
+  },
+  "button": {
+    "back": "Back",
+    "pay": "Pay",
+    "continue": "Continue"
+  },
+  "member": {
+    "name": "Name",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "email": "Email",
+    "password": "Password",
+    "region": "Region",
+    "phone": "Phone",
+    "save": "Save",
+    "success": "Saved successfully",
+    "male": "Male",
+    "female": "Female",
+    "hcm": "Ho Chi Minh",
+    "hn": "Ha Noi",
+    "dn": "Da Nang"
+  },
+  "widget": {
+    "contactTitle": "Contact",
+    "supportTitle": "Support",
+    "professional": "Specializes in: wholesale and retail distribution of ORNE paint lines, distribution of high quality wall putty",
+    "hotline": "Hotline",
+    "address": "Address",
+    "contactUs": "Contact Us",
+    "support&Faqs": "Help & FAQs",
+    "connectWithUs": "Connect With Us",
+    "lastestNew": "Lastest New"
+  }
+}

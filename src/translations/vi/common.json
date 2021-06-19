@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "usersManagement": "Quản lý tài khoản",
+    "productsManagement": "Quản lý sản phẩm",
+    "worksDonesManagement": "Quản lý công trình",
+    "blogsManagement": "Quản lý blog",
+    "addUser": "Thêm tài khoản",
+    "editUser": "Thay đổi tài khoản",
+    "addProduct": "Thêm sản phẩm",
+    "editProduct": "Thay đổi sản phẩm",
+    "addWorksDone": "Thêm công trình",
+    "editWorksDone": "Thay đổi công trình",
+    "addBlog": "Thêm Blog",
+    "editBlog": "Thay đổi Blog",
+    "id": "Id",
+    "name": "Tên",
+    "image": "Hình ảnh",
+    "categories": "Thể loại",
+    "price": "Giá",
+    "oldPrice": "Giá cũ",
+    "newPrice": "Giá mới",
+    "ratings": "Xếp hạng",
+    "content": "Nội dung",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "phone": "Số điện thoại",
+    "region": "Khu vực",
+    "gender": "Giới tính",
+    "birthday": "Ngày sinh",
+    "description": "Mô tả",
+    "action": "Hành động",
+    "edit": "Sửa",
+    "remove": "Xóa",
+    "confirmUser": "Bạn có chắc muốn xóa tài khoản này?",
+    "confirmMovie": "Bạn có chắc muốn xóa phim này?",
+    "confirmTicket": "Bạn có chắc muốn xóa vé này?",
+    "male": "Nam",
+    "female": "Nữ",
+    "hcm": "Hồ Chí Minh",
+    "hn": "Hà Nội",
+    "dn": "Đà Nẵng"
+  },
+  "contact": {
+    "contact": "Liên hệ cho chúng tôi",
+    "openTime": "Thời gian mở cửa",
+    "emailUs": "Gửi mail cho chúng tôi",
+    "callUs": "Gọi cho chúng tôi",
+    "address": "Địa chỉ"
+  },
+  "authentication": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng Xuất",
+    "retry": "Thử lại"
+  },
+  "headerTopBar": {
+    "search": "Tìm kiếm sản phẩm...",
+    "register": "Đăng ký",
+    "loading": "Đang tải..."
+  },
+  "menu": {
+    "home": "Trang chủ",
+    "interiorPaint": "Sơn Nội Thất",
+    "exteriorPaint": "Sơn Ngoại Thất",
+    "putty": "Bột trét",
+    "member": "Thành Viên",
+    "contact": "Liên hệ",
+    "productList": "Danh sách sản phẩm"
+  },
+  "breadcrumbs": {
+    "home": "Trang chủ",
+    "interiorPaint": "Sơn Nội Thất",
+    "exteriorPaint": "Sơn Ngoại Thất",
+    "productDetail": "Chi tiết Sơn",
+    "worksDoneDetail": "Chi tiết Công Trình",
+    "blogDetail": "Chi tiết Blog",
+    "putty": "Bột Trét",
+    "contact": "Liên Hệ"
+  },
+  "titleSection": {
+    "aboutUs": "Về chúng tôi",
+    "interiorPaint": "Sơn Nội Thất",
+    "exteriorPaint": "Sơn Ngoại Thất",
+    "putty": "Bột trét",
+    "worksDone": "Công Trình Thực Hiện",
+    "blog": "Tin Mới Nhất"
+  },
+  "aboutUsSection": {
+    "companyName": "ĐẠI LÝ PHÂN PHỐI SƠN PHÁP CAO CẤP ĐÔNG THỊNH",
+    "companyDes": "là nhà phân phối các dòng sơn trang trí, bột trét tường nội ngoại thất cao cấp. Đông Thịnh đem đến cho các bạn các loại sơn có chất lượng cao dùng cho việc bảo vệ và trang trí công trình xây dựng. Sản phẩm của chúng tôi đã được nghiên cứu phù hợp với điều kiện khí hậu Việt Nam, sản xuất theo tiêu chuẩn ISO 9001 và được cấp chứng chỉ phù hợp tiêu chuẩn. Với phương châm chất lượng là hàng đầu, căn nhà bạn sẽ đẹp hơn, bền hơn khi sử dụng sơn của chúng tôi.",
+    "companyHotline": "Hotline",
+    "companyAddress": "Địa chỉ"
+  },
+  "serviceBetterSection": {
+    "title": "Tại sao dịch vụ sơn của chúng tôi tốt hơn dịch vụ khác ?",
+    "articleOne": "Bảo vệ Nhà & Nội thất",
+    "articleTwo": "Chuyên gia tư vấn màu sắc để giúp lựa chọn màu sắc",
+    "articleThree": "Giá tốt nhất thị trường"
+  },
+  "button": {
+    "back": "Quay lại",
+    "pay": "Thanh Toán",
+    "continue": "Tiếp tục"
+  },
+  "member": {
+    "name": "Tên",
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "email": "E-mail",
+    "password": "Mật khẩu",
+    "region": "Khu vực",
+    "phone": "Số điện thoại",
+    "save": "Lưu lại",
+    "success": "Đã Lưu thành công",
+    "male": "Nam",
+    "female": "Nữ",
+    "hcm": "Hồ Chí Minh",
+    "hn": "Hà Nội",
+    "dn": "Đà Nẵng"
+  },
+  "widget": {
+    "contactTitle": "Liên Hệ",
+    "supportTitle": "Trợ Giúp",
+    "professional": "Chuyên: phân phối sỉ và lẻ các dòng sơn ORNE, phân phối bột trét tường cao cấp",
+    "hotline": "Hotline",
+    "address": "Địa chỉ",
+    "contactUs": "Liên hệ với chúng tôi",
+    "support&Faqs": "Trợ giúp & những câu hỏi",
+    "connectWithUs": "Liên Kết Với Chúng Tôi",
+    "lastestNew": "Tin mới nhất"
+  }
+}

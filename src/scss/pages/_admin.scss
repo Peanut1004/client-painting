@@ -1,0 +1,11 @@
+.admin {
+  display: flex;
+
+  &__left {
+    width: 250px;
+  }
+
+  &__right {
+    width: calc(100% - 250px);
+  }
+}

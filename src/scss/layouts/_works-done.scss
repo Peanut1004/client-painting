@@ -1,0 +1,103 @@
+.works-done {
+    padding: 100px 0 70px 0;
+    // &__grid {
+    //     @include grid(1fr 1fr 1fr 1fr);
+    // }
+    &__box {
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        border-radius: 4px;
+        background-color: $color-white;
+        transition: all .3s ease;
+        margin-bottom: 30px;
+        &:hover {
+          .works-done__image {
+            img {
+              -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              transform: scale(1.2);
+            }
+            a {
+              top: 50%;
+              opacity: 1;
+            }
+            &:before {
+              opacity: 1;
+            }
+          }
+          
+        }
+    }
+    &__image {
+      overflow: hidden;
+      position: relative;
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: rgba(10, 71, 46, 0.5);
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        opacity: 0;
+        z-index: 1;
+      }
+      img {
+        width: 100%;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+      }
+      a {
+        position: absolute;
+        left: 0;
+        top: 70%;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        border: 2px solid #ddd;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -ms-border-radius: 50%;
+        padding: 12px 0;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        opacity: 0;
+        z-index: 2;
+      }
+    }
+    &__info {
+        padding: 20px 30px;
+        &--name {
+            margin-bottom: 10px;
+            a {
+                color: $color-secondary;
+                font-size: $font-size-larger;
+                font-weight: $font-weight7;
+            }
+        }
+        &--price {
+            color: $color-main;
+            font-weight: $font-weight6;
+        }
+    }
+}

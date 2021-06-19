@@ -1,0 +1,223 @@
+.topbar {
+  position: relative;
+  background-color: $color-white;
+  padding: 25px 0;
+
+  &__columns {
+    @include flex($wrap: nowrap);
+  }
+  
+  &__dkris {
+    // display: flex;
+  }
+
+  &__contact {
+    // display: flex;
+    @include flex($wrap: nowrap, $justify: normal);
+    &--inner {
+      display: flex;
+      &:first-child {
+        margin-right: 40px;
+      }
+      i {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        background: #e0e6e8;
+        color: $color-secondary;
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 35% 45% 35% 55% / 35% 55% 35% 40%;
+      }
+    }
+    &--content {
+      span {
+        display: block;
+        margin-bottom: 4px;
+      }
+      h4 {
+        font-size: $font-size-larger;
+        font-weight: $font-weight7;
+        color: $color-black;
+      }
+    }
+  }
+
+  &__language {
+    // display: flex;
+    // margin-left: 100px;
+
+    button {
+      padding: 0 10px;
+      font-weight: $font-weight6;
+      color: $color-black;
+      background-color: transparent;
+      position: relative;
+      &:after {
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 1px;
+        height: 20px;
+        background-color: $color-black;
+        position: absolute;
+      }
+      &:last-child:after {
+        display: none;
+      }
+      &:first-child {
+        border: none;
+      }
+      &:hover {
+        color: $color-main;
+      }
+    }
+
+    .active {
+      color: $color-main;
+    }
+  }
+
+  &__lr {
+    display: flex;
+    a {
+      font-size: 16px;
+      color: $color-black;
+      padding: 10px 20px;
+      position: relative;
+      border-radius: 36px;
+      margin-left: 15px;
+      border: 1px solid $color-black;
+
+      i {
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: $color-white;
+        background-color: $bg-main;
+        border: 1px solid $bg-main;
+      }
+    }
+  }
+}
+
+// .lg-flex {
+//   display: flex;
+// }
+
+
+
+// .topbar-top {
+//   background-color: #202020;
+// }
+// @media (max-width: 575px) {
+//   .topbar {
+//     padding: 10px 0;
+//   }
+// }
+// .topbar__inner {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   flex-wrap: nowrap;
+// }
+// @media (max-width: 767px) {
+//   .topbar__inner {
+//     display: unset;
+//   }
+// }
+// @media (max-width: 575px) {
+//   .topbar__post-time {
+//     margin-bottom: 5px;
+//   }
+// }
+// .topbar__post-time span {
+//   color: #898989;
+//   font-family: "Arial";
+//   margin-right: 10px;
+// }
+// .topbar__post-time.time {
+//   margin-right: 20px;
+//   position: relative;
+//   padding-left: 20px;
+// }
+// .topbar__post-time.time:after {
+//   content: "";
+//   top: 50%;
+//   transform: translateY(-50%);
+//   left: 0;
+//   position: absolute;
+//   font-family: "fontawesome";
+// }
+// .topbar__list-social {
+//   margin-left: 30px;
+//   border-left: 1px solid #2b2b2b;
+// }
+// @media (max-width: 767px) {
+//   .topbar__list-social {
+//     border-left: unset;
+//     margin-left: 0;
+//   }
+// }
+// .topbar__list-social a {
+//   font-size: 11px;
+//   color: #898989;
+//   width: 32px;
+//   height: 30px;
+//   line-height: 30px;
+//   text-align: center;
+//   display: inline-block;
+//   border-right: 1px solid #2b2b2b;
+// }
+// .topbar__list-social a:hover {
+//   color: #59b586;
+// }
+// @media (max-width: 767px) {
+//   .topbar__list-social a {
+//     border-right: unset;
+//   }
+// }
+// .topbar__left {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   flex-wrap: nowrap;
+// }
+// @media (max-width: 575px) {
+//   .topbar__left {
+//     display: unset;
+//     text-align: center;
+//   }
+// }
+// .topbar__right .icons-login:before {
+//   content: "";
+//   color: currentColor;
+//   padding-right: 10px;
+//   font-family: "fontawesome";
+// }
+// .topbar__right .icons-register:before {
+//   content: "";
+//   color: currentColor;
+//   padding-right: 10px;
+//   font-family: "fontawesome";
+// }
+// @media (max-width: 767px) {
+//   .topbar__right {
+//     text-align: center;
+//     margin-top: 10px;
+//   }
+// }
+// .topbar__right a {
+//   font-size: 12px;
+//   color: #898989;
+//   padding: 8px 10px;
+//   display: inline-block;
+//   position: relative;
+// }
+// .topbar__right a:hover {
+//   color: #59b586;
+// }

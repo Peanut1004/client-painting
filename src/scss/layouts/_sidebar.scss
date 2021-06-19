@@ -1,0 +1,33 @@
+.sidebar {
+    &__widget {
+        margin-bottom: 50px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &--title {
+            font-size: $font-size-big;
+            line-height: 32px;
+            font-weight: $font-weight7;
+            color: $color-secondary;
+            margin-bottom: 30px;
+            padding-bottom: 8px;
+            position: relative;
+            border-bottom: 1px solid #eae3e3;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 98%;
+                left: 0;
+                height: 3px;
+                width: 50px;
+                background-color: red;
+            }
+        }
+    }
+}
+.listItem {
+    &__hSidebar {
+        padding: 100px 0 70px 0;
+        display: flex;
+    }
+}

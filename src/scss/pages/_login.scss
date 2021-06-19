@@ -1,0 +1,33 @@
+.login {
+  &__wrap {
+    @include ml-mr(32%, 32%);
+    @include mt-mb(50px, 0);
+    position: relative;
+  }
+  &__inner {
+    padding: 30px;
+    background-color: $color-white;
+    border: 1px solid $color-main;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  }
+  &__name {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: $font-weight7;
+    color: $color-main;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  button {
+    color: $color-white;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: $color-main;
+  }
+  &__form {
+    margin-bottom: 10px;
+    input {
+      margin-bottom: 15px;
+    }
+  }
+}
