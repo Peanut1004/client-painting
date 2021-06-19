@@ -24,7 +24,7 @@ const HeaderMenu = () => {
   const showProductSearch = () => {
     return listProduct.map((e, i) => (
       <li key={i}>
-        <Link to={`/movie-detail/${e.id}`}>
+        <Link to={`/product-detail/${e.id}`}>
           <img src={e.image} alt="image" />
           <p>{e.name}</p>
         </Link>
