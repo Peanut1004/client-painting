@@ -33,7 +33,7 @@ const HeaderMenu = () => {
   };
 
   return (
-    <header className="header">
+    <header className="header header2">
       <div className="container">
         <div className="header__flex">
           <div className="menu__content">

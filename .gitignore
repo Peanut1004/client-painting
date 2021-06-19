@@ -9,7 +9,13 @@
 /coverage
 
 # production
-/build
+/src
+/public
+/.env
+/.gitignore
+/package-lock.json
+/package.json
+/README.md
 
 # misc
 .DS_Store
