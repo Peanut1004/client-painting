@@ -38,12 +38,16 @@ const Blog = () => {
                       </Link>
                     </div>
                     <div className="blog__content">
+                      <div className="blog__date">{e.date}</div>
                       <h3 className="blog__title">
                         <Link to={`/blog-detail/${e.id}`}>{e.name}</Link>
                       </h3>
-                      <p className="blog__description line-clamp-2">
+                      <p className="blog__description line-clamp-3">
                         {e.content}
                       </p>
+                      <div className="blog__continue">
+                        <Link to={`/blog-detail/${e.id}`}>Đọc tiếp</Link>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -16,6 +16,7 @@ export default function AdminBlogAddEdit() {
   const [blog, setBlog] = useState({
     image: '',
     name: '',
+    date: '',
     content: '',
   });
   const { successError, loading, loadingGetBlog, error } = useSelector(
@@ -30,6 +31,7 @@ export default function AdminBlogAddEdit() {
           setBlog({
             image: res.payload.image,
             name: res.payload.name,
+            date: res.payload.date,
             content: res.payload.content,
           });
         }
@@ -73,6 +75,7 @@ export default function AdminBlogAddEdit() {
                 <input
                   type="text"
                   value={blog.image}
+                  placeholder="VD: nhập link của hình ảnh"
                   onChange={e => setBlog({ ...blog, image: e.target.value })}
                 />
               </fieldset>
@@ -82,6 +85,14 @@ export default function AdminBlogAddEdit() {
                   type="text"
                   value={blog.name}
                   onChange={e => setBlog({ ...blog, name: e.target.value })}
+                />
+              </fieldset>
+              <fieldset>
+                <label>{t('admin.date')}:</label>
+                <input
+                  type="date"
+                  value={blog.date}
+                  onChange={e => setBlog({ ...blog, date: e.target.value })}
                 />
               </fieldset>
               <fieldset>

@@ -131,17 +131,17 @@ const InteriorPaintListChild = () => {
                     <p>{error.message}</p>
                   ) : (
                     blogs.map((e, i) => (
-                      <div className="blog__box blogList" key={i}>
+                      <div className="blog__box blogList blogListSmall" key={i}>
                         <div className="blog__poster">
-                          <img src={e.image} alt="images" />
+                          <Link to={`/blog-detail/${e.id}`}>
+                            <img src={e.image} alt="images" />
+                          </Link>
                         </div>
                         <div className="blog__content">
                           <h3 className="blog__title">
-                            <Link to="/">{e.name}</Link>
+                            <Link to={`/blog-detail/${e.id}`}>{e.name}</Link>
                           </h3>
-                          <p className="blog__description line-clamp-2">
-                            {e.content}
-                          </p>
+                          <div class="blog__date">{e.date}</div>
                         </div>
                       </div>
                     ))

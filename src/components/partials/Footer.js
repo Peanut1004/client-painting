@@ -67,6 +67,11 @@ const Footer = () => {
                         {t('widget.support&Faqs')}
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/login" className="widget__menu--link">
+                        Admin
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

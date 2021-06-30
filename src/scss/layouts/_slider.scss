@@ -1,48 +1,64 @@
 .slider {
+	height: 100%;
+	width: 100%;
 	position: relative;
-}
-.react-slideshow-container {
-	display: unset;
-	align-items: unset;
-}
-.react-slideshow-container .default-nav:first-of-type {
-	margin-right: 0;
-	border-right: 0;
-	border-top: 0;
-}
-.react-slideshow-container .default-nav {
-	display: unset;
-	align-items: unset;
-	justify-content: unset;
-	background-color: $bg-white;
-	line-height: 34px;
-}
-.react-slideshow-container .default-nav:first-of-type {
+	overflow: hidden;
+	text-align: center;
+	padding: 300px;
+  }
+  .slider__inner {
+	left: 0;
+	width: 100%;
+	bottom: 30px;
 	position: absolute;
-	top: 50%;
-	left: 15px;
-	transform: translateY(-50%);
-	padding: 0;
-}
-.react-slideshow-container .default-nav:last-of-type {
-	position: absolute;
-	top: 50%;
-	right: 15px;
-	transform: translateY(-50%);
-	padding: 0;
-}
-.react-slideshow-container .default-nav:last-of-type {
-	margin-left: 0;
-}
-.react-slideshow-container .default-nav svg {
+  }
+  .slider__inner label {
 	width: 14px;
 	height: 14px;
-	fill: $color-main;
-	@extend.trans;
-}
-.react-slideshow-container .default-nav:hover {
-	background-color: $bg-main;
-}
-.react-slideshow-container .default-nav:hover svg {
-	fill: $color-white;
-}
+	background: #fff;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 4px;
+	border: 1px solid $color-secondary;
+  }
+  .slider__inner label:hover, .slider__inner label.active {
+	background: #59b586;
+  }
+  
+  .slide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: left 0s 0.75s;
+  }
+  .slide__one {
+	background-image: url("../../assets/images/banner/01.jpg");
+  }
+  .slide__two {
+	background-image: url("../../assets/images/banner/01.jpg");
+  }
+  .slide__three {
+	background-image: url("../../assets/images/banner/01.jpg");
+  }
+  
+  [id^=slide]:checked + .slide {
+	left: 0;
+	transition: left 0.65s ease-out;
+  }
+  
+  input[id=slide-dot1]:checked ~ .slider__inner label[for=slide-dot1] {
+	background: #59b586;
+  }
+  
+  input[id=slide-dot2]:checked ~ .slider__inner label[for=slide-dot2] {
+	background: #59b586;
+  }
+  
+  input[id=slide-dot3]:checked ~ .slider__inner label[for=slide-dot3] {
+	background: #59b586;
+  }

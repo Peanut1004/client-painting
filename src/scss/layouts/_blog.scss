@@ -3,9 +3,13 @@
 	&__box {
 		cursor: pointer;
 		margin-bottom: 30px;
+		overflow: hidden;
 		&.blogGrid {
 			overflow: hidden;
 			border: 1px solid #e6e6e6;
+			.blog__content .blog__date {
+				margin-bottom: 12px;
+			}
 		}
 		&.blogGrid {
 			img {
@@ -22,57 +26,131 @@
 			}
 		}
 		&.blogGrid .blog__content {
-			padding: 30px 20px;
+			padding: 20px 20px 30px 20px;
 		}
 		&.blogList {
 			overflow: hidden;
-			margin-bottom: 30px;
+			margin-bottom: 40px;
+			&:last-child {
+				margin-bottom: 0;
+			}
 		}
-		&.blogList .blog__poster {
-			width: 150px;
-			float: left;
-			margin-right: 15px;
+		&.blogList  {
+			.blog__poster {
+				float: left;
+			}
+			&.blogListBig {
+				.blog__poster {
+					width: 300px;
+					margin-right: 20px;
+				}
+				.blog__content {
+					.blog__date {
+						margin-bottom: 4px;
+					}
+				}
+			}
+			&.blogListSmall {
+				.blog__poster {
+					width: 150px;
+					margin-right: 15px;
+				}
+			}
+			
+			
+		}
+		
+	}
+	&__date {
+		overflow: hidden;
+		font-size: $font-size-medium;
+		font-weight: $font-weight5;
+		position: relative;
+		padding-left: 20px;
+		&:after {
+			content: '\f017';
+			font-size: $font-size-medium;
+			top: 50%;
+			left: 1px;
+			transform: translateY(-50%);
+			position: absolute;
+			font-family: "Fontawesome";
 		}
 	}
-	// &__columns {
-	// 	@include grid(1fr 1fr 1fr);
-	// }
 	&__poster {
 		position: relative;
 		overflow: hidden;
 	}
 	&__title {
-		margin-bottom: 15px;
-		text-overflow: ellipsis;
-		white-space: nowrap;
+		margin-bottom: 8px;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
 		overflow: hidden;
 		a {
 			color: $color-main;
 			font-size: $font-size-larger;
+			line-height: 26px;
 			font-weight: $font-weight6;
 		}
 	}
-	&__content p {
-		&.line-clamp-2 {
-			display: -webkit-box;
-			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 2;
-			overflow: hidden;
+	&__content {
+		p {
+			font-size: $font-size-medium;
+			&.line-clamp-2 {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2;
+				overflow: hidden;
+			}
+			&.line-clamp-3 {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 3;
+				overflow: hidden;
+			}
 		}
-		font-style: italic;
-		
+	}
+	&__continue {
+		margin-top: 10px;
+		a {
+			color: $color-secondary;
+			font-style: italic;
+		}
 	}
 }
 
 .blog-detail {
 	padding: 100px 0;
+	&__date {
+		overflow: hidden;
+		margin-bottom: 10px;
+		// font-size: $font-size-medium;
+		font-weight: $font-weight7;
+		position: relative;
+		padding-left: 22px;
+		&:after {
+			content: '\f017';
+			top: 44%;
+			left: 1px;
+			transform: translateY(-50%);
+			position: absolute;
+			font-family: "Fontawesome";
+		}
+	}
 	&__image {
 		margin-bottom: 20px;
+		img {
+			width: 100%;
+		}
 	}
 	&__title {
 		color: $color-main;
 		font-size: $font-size-big;
 		font-weight: $font-weight6;
-		margin-bottom: 8px;
+		margin-bottom: 10px;
 	}
+}
+.pd100-70 {
+	padding: 100px 0;
 }

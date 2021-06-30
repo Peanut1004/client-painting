@@ -14,6 +14,7 @@
     "editBlog": "Thay đổi Blog",
     "id": "Id",
     "name": "Tên",
+    "date": "Ngày",
     "image": "Hình ảnh",
     "categories": "Thể loại",
     "price": "Giá",
@@ -32,8 +33,9 @@
     "edit": "Sửa",
     "remove": "Xóa",
     "confirmUser": "Bạn có chắc muốn xóa tài khoản này?",
-    "confirmMovie": "Bạn có chắc muốn xóa phim này?",
-    "confirmTicket": "Bạn có chắc muốn xóa vé này?",
+    "confirmProduct": "Bạn có chắc muốn xóa sản phẩm này?",
+    "confirmWorksDone": "Bạn có chắc muốn xóa công trình này?", 
+    "confirmBlog": "Bạn có chắc muốn xóa tin này?", 
     "male": "Nam",
     "female": "Nữ",
     "hcm": "Hồ Chí Minh",
@@ -76,6 +78,7 @@
     "worksDoneDetail": "Chi tiết Công Trình",
     "blogDetail": "Chi tiết Blog",
     "putty": "Bột Trét",
+    "news": "Tin tức",
     "contact": "Liên Hệ"
   },
   "titleSection": {

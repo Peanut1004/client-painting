@@ -15,6 +15,7 @@ import Register from './components/pages/Register';
 import InteriorPaintList from './components/pages/InteriorPaintList';
 import ExteriorPaintList from './components/pages/ExteriorPaintList';
 import PuttyList from './components/pages/PuttyList';
+import News from './components/pages/News';
 import AdminWorksDonesManagement from './components/pages/AdminWorksDonesManagement';
 import AdminWorksDoneAddEdit from './components/admin/AdminWorksDoneAddEdit';
 import WorksDoneDetail from './components/pages/WorksDoneDetail';
@@ -64,7 +65,7 @@ const routers = [
   {
     path: '/admin/worksDonesManagement/add',
     exact: true,
-    main: () => <AdminWorksDoneAddEdit />, 
+    main: () => <AdminWorksDoneAddEdit />,
   },
   {
     path: '/admin/blogsManagement',
@@ -115,6 +116,11 @@ const routers = [
     path: '/putty-list',
     exact: true,
     main: () => <PuttyList />,
+  },
+  {
+    path: '/news',
+    exact: true,
+    main: () => <News />,
   },
   {
     path: '/contact',

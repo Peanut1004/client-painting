@@ -81,6 +81,7 @@ export default function AdminProductAddEdit() {
                 <input
                   type="text"
                   value={product.image}
+                  placeholder="VD: nhập link của hình ảnh"
                   onChange={e =>
                     setProduct({ ...product, image: e.target.value })
                   }
@@ -96,7 +97,7 @@ export default function AdminProductAddEdit() {
                   }
                 />
               </fieldset>
-              <fieldset>
+              {/* <fieldset>
                 <label>{t('admin.categories')}:</label>
                 <input
                   type="text"
@@ -105,6 +106,20 @@ export default function AdminProductAddEdit() {
                     setProduct({ ...product, categories: e.target.value })
                   }
                 />
+              </fieldset> */}
+              <fieldset>
+                <label>{t('admin.categories')} :</label>
+                <select
+                  value={product.categories}
+                  onChange={e =>
+                    setProduct({ ...product, categories: e.target.value })
+                  }
+                >
+                  <option value="" disabled></option>
+                  <option value="furniture">Sơn Nội Thất</option>
+                  <option value="exterior">Sơn Ngoại Thất</option>
+                  <option value="putty">Bội trét</option>
+                </select>
               </fieldset>
               <fieldset>
                 <label>{t('admin.oldPrice')}:</label>
@@ -129,8 +144,10 @@ export default function AdminProductAddEdit() {
               <fieldset>
                 <label>{t('admin.ratings')}:</label>
                 <input
-                  type="text"
+                  type="number"
                   value={product.ratings}
+                  min="1"
+                  max="5"
                   onChange={e =>
                     setProduct({ ...product, ratings: e.target.value })
                   }

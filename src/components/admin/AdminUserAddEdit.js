@@ -95,6 +95,7 @@ export default function AdminUserAddEdit() {
                 <input
                   type="text"
                   value={user.email}
+                  placeholder="VD: hoang1997@gmail.com"
                   onChange={e => setUser({ ...user, email: e.target.value })}
                 />
               </fieldset>

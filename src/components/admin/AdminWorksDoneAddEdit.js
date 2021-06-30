@@ -74,6 +74,7 @@ export default function AdminWorksDoneAddEdit() {
                 <input
                   type="text"
                   value={worksDone.image}
+                  placeholder="VD: nhập link của hình ảnh"
                   onChange={e =>
                     setWorksDone({ ...worksDone, image: e.target.value })
                   }
@@ -90,7 +91,7 @@ export default function AdminWorksDoneAddEdit() {
                 />
               </fieldset>
               <fieldset>
-                <label>{t('admin.pricee')}:</label>
+                <label>{t('admin.price')}:</label>
                 <input
                   type="text"
                   value={worksDone.price}

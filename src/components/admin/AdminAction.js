@@ -28,19 +28,19 @@ export default function AdminAction(props) {
       }
     }
     if (productId) {
-      if (window.confirm(t('admin.confirmMovie'))) {
+      if (window.confirm(t('admin.confirmProduct'))) {
         dispatch(removeProduct(productId));
         productsApi.deleteProduct(productId);
       }
     }
     if (worksDoneId) {
-      if (window.confirm('confirm')) {
+      if (window.confirm(t('admin.confirmWorksDone'))) {
         dispatch(removeWorksDone(worksDoneId));
         worksDonesApi.deleteWorksDone(worksDoneId);
       }
     }
     if (blogId) {
-      if (window.confirm('confirm')) {
+      if (window.confirm(t('admin.confirmBlog'))) {
         dispatch(removeBlog(blogId));
         blogsApi.deleteBlog(blogId);
       }

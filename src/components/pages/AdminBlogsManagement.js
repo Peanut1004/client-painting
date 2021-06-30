@@ -36,6 +36,7 @@ export default function AdminBlogsManagement() {
     t('admin.id'),
     t('admin.image'),
     t('admin.name'),
+    t('admin.date'),
     t('admin.content'),
     t('admin.action'),
   ];
@@ -85,6 +86,9 @@ export default function AdminBlogsManagement() {
                         </td>
                         <td className="table__name" data-title="Name">
                           {e.name}
+                        </td>
+                        <td className="table__date" data-title="Date">
+                          {e.date}
                         </td>
                         <td
                           className="table__description"

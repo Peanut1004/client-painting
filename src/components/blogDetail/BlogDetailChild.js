@@ -43,6 +43,7 @@ const BlogDetailChild = () => {
                 <div className="blog-detail__image">
                   <img src={e.image} alt="image" />
                 </div>
+                <div className="blog-detail__date">2022-06-23</div>
                 <h3 className="blog-detail__title">{e.name}</h3>
                 <p>{e.content}</p>
               </div>

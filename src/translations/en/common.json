@@ -14,6 +14,7 @@
     "editBlog": "Edit Blog",
     "id": "Id",
     "name": "Name",
+    "date": "Date",
     "image": "Image",
     "categories": "Categories",
     "price": "Price",
@@ -32,8 +33,9 @@
     "edit": "Edit",
     "remove": "Remove",
     "confirmUser": "Are you sure remove this user?",
-    "confirmMovie": "Are you sure remove this movie?",
-    "confirmTicket": "Are you sure remove this ticket?",
+    "confirmProduct": "Are you sure remove this product?",
+    "confirmWorksDone": "Are you sure remove this works done?", 
+    "confirmBlog": "Are you sure remove this blog?", 
     "male": "Male",
     "female": "Female",
     "hcm": "Ho Chi Minh",
@@ -76,6 +78,7 @@
     "worksDoneDetail": "Works Done Detail",
     "blogDetail": "Blog Detail",
     "putty": "Putty",
+    "news": "News",
     "contact": "Contact"
   },
   "titleSection": {
