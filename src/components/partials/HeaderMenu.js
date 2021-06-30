@@ -33,7 +33,7 @@ const HeaderMenu = () => {
   };
 
   return (
-    <header className="header">
+    <header className="header header2">
       <div className="container">
         <div className="header__flex">
           <div className="menu__content">
@@ -131,6 +131,19 @@ const HeaderMenu = () => {
                     }
                   >
                     {t('menu.putty')}
+                  </Link>
+                </li>
+
+                <li className="menu__list">
+                  <Link
+                    to="/news"
+                    className={
+                      location.pathname === '/news'
+                        ? 'menu__list--link active'
+                        : 'menu__list--link'
+                    }
+                  >
+                    {t('menu.news')}
                   </Link>
                 </li>
 
